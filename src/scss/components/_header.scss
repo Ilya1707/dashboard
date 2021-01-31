@@ -1,0 +1,71 @@
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 50px;
+    padding: 34px 38px 15px 49px;
+    background: #EFF3F9;
+
+    .header__title{
+        font-family: 'Gilroy Bold';
+        font-size: 30px;
+        line-height: 36px;
+        color: #4F4F4F;
+        padding-right: 45px;
+    }
+
+    .header__search{
+        width: 153px;
+        height: 32px;
+        border: 1px solid #EBEBEB;
+        border-radius: 8px;
+        padding: 0 11px 0 18px;
+    }
+    .header__search::before{
+        content: '';
+        top: 13px;
+        left: 191px;
+        width: 10px;
+        height: 10px;
+        background: url(/src/img/search.png) no-repeat center/contain;
+    }
+    .header__icon{
+        display: flex;
+    }
+    .header__icon::before{
+        content: '';
+        height: 22px;
+        width: 22px;
+        margin-left: 25px;
+        background: url(/src/img/notification.png) no-repeat center/contain;
+    }
+
+    .header__user--window{
+        display: flex;
+        padding-left: 564px;
+    }
+
+    .user__name{
+        padding: 15px 11px 0px 0px;
+        font-family: 'Gilroy Bold';
+        font-size: 20px;
+        line-height: 24px;
+        color: #4F4F4F;
+    }
+
+    .user__photo{
+        width: 50px;
+        height: 50px;
+        background: url(/src/img/user-photo.png) no-repeat center/contain;
+    }
+    .user__menu{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        background: url(/src/img/Vector.png)no-repeat center;
+        padding-top: 70px;
+        margin-left: 9px;
+
+    }
+}
