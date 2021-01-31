@@ -1,0 +1,20 @@
+.navbar{
+    @include navbar;
+
+    .navbar__logo{
+        margin: 46px 24px 149px 23px;
+    }
+
+    .navbar__list{
+        list-style-type: none;
+    }
+
+    .navbar__item{
+        margin: 0 0 40px;
+    }
+
+    .navbar__switch{
+        margin: 142px 20px 48px 18px;
+    }
+
+}

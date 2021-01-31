@@ -1,0 +1,22 @@
+@mixin navbar{
+    position: absolute;
+    width: 98px;
+    height: 880px;
+    left: 0px;
+    top: 0px;
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+}
+
+@mixin position{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin icons{
+    width: 25px;
+    height: 25px;
+    color: #DFE6F1;
+}
